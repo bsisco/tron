@@ -101,6 +101,6 @@ popd
 
 
 :: Build log directories if they don't already exist
-for %%D in ("%LOGPATH%","%QUARANTINE_PATH%","%BACKUPS%","%RAW_LOGS%","%SUMMARY_LOGS%") do (
+for %%D in ("%LOGPATH%","%QUARANTINE_PATH%","%BACKUPS%","%RAW_LOGS%","%INFO_LOGS%","%SUMMARY_LOGS%") do (
 	if not exist %%D mkdir %%D
 )
